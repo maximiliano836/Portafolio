@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/fondo_principal.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem;
+}
+body .tabs {
+  max-width: 7vw;
+  margin-top: 10vh;
+  margin-left: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Smooch Sans", serif;
+  color: antiquewhite;
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style.css.map */
