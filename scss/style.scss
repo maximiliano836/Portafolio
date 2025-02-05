@@ -1,9 +1,7 @@
 @import "../scss/base/_generales";
-@import "../scss/components/_footer";
-@import "../scss/components/_header";
+@import "../scss/base/_mq";
 @import "../scss/components/_main";
 @import "../scss/components/_body";
-@import "../scss/base/_mq";
 
 
 * {
@@ -11,6 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family:"Smooch Sans", serif;
-    color: antiquewhite;
+    color: $text-color;
     list-style-type: none;
 }

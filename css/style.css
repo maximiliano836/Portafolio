@@ -1,19 +1,53 @@
 a {
   text-decoration: none;
+  color: antiquewhite;
+}
+
+p {
+  color: black;
+  font-size: 0.9vw;
+}
+
+main .tabs {
+  max-width: 7vw;
+  margin-top: 10vh;
+  margin-left: 0;
+}
+main .card_iconos, main .card_proyects {
+  display: grid;
+  justify-content: center;
+  background-color: rgba(206, 200, 200, 0.469);
+  max-width: 8vw;
+}
+main .card_proyects {
+  max-width: 35vw;
+}
+main .show_card {
+  display: grid;
+  justify-content: center;
+}
+main .icono {
+  max-height: 9vh;
+  max-width: 7vw;
+  padding: 1vh;
 }
 
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url("../img/fondo_principal.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 10rem;
+  background-image: url("../img/fondo.gif");
+  background-size: contain;
+  background-repeat: repeat;
+  padding: 2vh;
 }
-body .tabs {
-  max-width: 7vw;
-  margin-top: 10vh;
-  margin-left: 0;
+body header, body main {
+  padding: 3vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(168, 166, 163, 0.404);
+}
+body main {
+  height: 80vh;
 }
 
 * {

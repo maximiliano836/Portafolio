@@ -4,11 +4,27 @@ main {
         margin-top: 10vh;
         margin-left: 0;
     }
+
+    .card_iconos{
+        display: grid;
+        justify-content: center;
+        background-color: $card-color;
+        max-width: 8vw;
+    }
+
+    .card_proyects{
+        @extend.card_iconos;
+        max-width:35vw
+    }
+    .show_card{
+        display: grid;
+        justify-content: center;
+    }
     
-    .logos_lenguages {
-        img {
-        max-height: 4vh;
-        }
+    .icono {
+        max-height: 9vh;
+        max-width: 7vw;
+        padding: 1vh;
     }
 
 }
