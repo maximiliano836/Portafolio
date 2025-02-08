@@ -13,14 +13,29 @@ main .tabs {
   margin-top: 10vh;
   margin-left: 0;
 }
-main .card_iconos, main .card_proyects {
+main .card, main .card_proyects {
   display: grid;
   justify-content: center;
   background-color: rgba(206, 200, 200, 0.469);
+  border: 2px solid rgba(157, 240, 23, 0.904);
   max-width: 8vw;
+  transition: transform 0.3s ease;
+  box-shadow: 0 1px 15px rgba(157, 240, 23, 0.904);
+  border-radius: 5px;
+  padding: 2vh;
+}
+main .card_iconos, main .card_lenguages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vh;
+  max-width: 20vw;
+}
+main .card_lenguages {
+  max-width: 10vw;
 }
 main .card_proyects {
   max-width: 35vw;
+  max-height: 70vh;
 }
 main .show_card {
   display: grid;
@@ -31,10 +46,26 @@ main .icono {
   max-width: 7vw;
   padding: 1vh;
 }
+main .btn_info {
+  color: antiquewhite;
+  background-color: rgba(168, 166, 163, 0.404);
+  border: 1px solid rgba(157, 240, 23, 0.904);
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+main .btn_info:active {
+  box-shadow: 0 1px 6px rgba(157, 240, 23, 0.904);
+  border-radius: 6px;
+}
+main .card_iconos:hover, main .card_lenguages:hover, main .card_proyects:hover, main .card:hover, main .btn_info:hover {
+  transform: scale(1.02);
+}
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  max-height: 100vh;
+  max-width: 100vw;
   background-image: url("../img/fondo.gif");
   background-size: contain;
   background-repeat: repeat;
@@ -46,8 +77,21 @@ body header, body main {
   border-width: 1px;
   border-color: rgba(168, 166, 163, 0.404);
 }
+body header h1, body header h5 {
+  text-shadow: 0 0.5px 2px rgba(157, 240, 23, 0.904);
+}
 body main {
   height: 80vh;
+}
+body .trail {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: rgba(156, 72, 205, 0.866);
+  box-shadow: 0 0 10px rgba(178, 36, 255, 0.807);
+  border-radius: 90%;
+  pointer-events: none;
+  transition: transform 0.05s ease-out;
 }
 
 * {

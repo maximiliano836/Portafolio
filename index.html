@@ -14,25 +14,26 @@
 
 </head>
 <body>  
+  <div class="trail" id="trail-0"></div> 
   <header>
     <h1>Maximiliano Gonzalez</h1>
     <h5>Web Dev & Python Automation</h5>
   </header>
 
-  <main>
+  <main>      
     <div class="row">
       <div class="col-2">
         <p class="row gap-4 tabs">
-          <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Projects</a>
-          <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Lenguages</button>
-          <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Contact</button>
+          <button class="btn_info" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Projects</button>
+          <button class="btn_info" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Lenguages</button>
+          <button class="btn_info" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Contact</button>
         </p>
       </div>
       <div class="col">
         <div class="row">
           <div class="col">
             <div class="collapse multi-collapse show_card" id="multiCollapseExample1">
-              <div class="card card-body card_proyects">
+              <div class="card_proyects">
                 <div>
                   <a href="https://maximiliano836.github.io/coderhouse/" target="_blank"><h3>Zichi Nails Salon Website</h3></a>
                   <p>This project is a website for Zichi Nails Salon, created as a final submission for an online course. The website includes features such as web booking, service information, contact center and location, all designed to provide a seamless user experience to salon customers.</p>
@@ -42,7 +43,7 @@
                   <p>I developed an e-commerce platform for general merchandise as part of an online course project. The platform includes easy-to-use navigation, login and user cart, with the aim of improving customers' online shopping experience.</p>
                 </div>
                 <div>
-                  <h3>Python Automation Solutions</h3>
+                  <h3>Python Automation Solutions 🔒</h3>
                   <p>Implemented multiple automation solutions for my company using Python, with Selenium as the primary tool. These automations streamlined various business processes, improving efficiency and reducing manual workload. Examples include automated web scraping, web-based task automation, data processing, report generation, and task scheduling. The use of Selenium was pivotal in enhancing operational efficiency by automating repetitive web interactions.</p>
                 </div>
                 <div>
@@ -61,23 +62,31 @@
           </div>
           <div class="col">
             <div class="collapse multi-collapse show_card" id="multiCollapseExample2">
-              <div class="card card-body card_iconos">
-                <img src="./img/archivo-html.png" alt="Logo html" class="icono">
-                <img src="./img/archivo.png" alt="Logo Python" class="icono">
-                <img src="./img/formato-de-archivo-css.png" alt="Logo css" class="icono">
-                <img src="./img/js.png" alt="Logo javascipt" class="icono">
-                <img src="./img/sass.png" alt="Logo sass" class="icono">
-                <img src="./img/sql.png" alt="Logo sql" class="icono">
+              <div class="card card_lenguages">
+                <div>
+                  <img src="./img/archivo-html.png" alt="Logo html" class="icono">
+                  <img src="./img/archivo.png" alt="Logo Python" class="icono">
+                  <img src="./img/formato-de-archivo-css.png" alt="Logo css" class="icono">
+                </div>
+                <div>
+                  <img src="./img/js.png" alt="Logo javascipt" class="icono">
+                  <img src="./img/sass.png" alt="Logo sass" class="icono">
+                  <img src="./img/sql.png" alt="Logo sql" class="icono">
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="collapse multi-collapse show_card" id="multiCollapseExample3">
-              <div class="card card-body card_iconos">
-                <a href="https://www.linkedin.com/in/maximiliano-gonzalez-36965020a/" target="_blank"><img src="./img/linkedin.png" alt="Logo linkedin" class="icono"></a>
-                <a href="https://github.com/maximiliano836" target="_blank"><img src="./img/signo-de-github.png" alt="Logo github" class="icono"></a>
-                <a href="mailto:maxi10.02.00.g@gmail.com" target="_blank"><img src="./img/gmail.png" alt="Logo gmail" class="icono"></a>
-                <a href="https://www.instagram.com/maximiliano836/" target="_blank"><img src="./img/instagram.png" alt="Logo instagram" class="icono"></a>
+              <div class="card card_iconos">
+                <div>
+                  <a href="https://www.linkedin.com/in/maximiliano-gonzalez-36965020a/" target="_blank"><img src="./img/linkedin.png" alt="Logo linkedin" class="icono"></a>
+                  <a href="https://github.com/maximiliano836" target="_blank"><img src="./img/signo-de-github.png" alt="Logo github" class="icono"></a>
+                </div>
+                <div>
+                  <a href="mailto:maxi10.02.00.g@gmail.com" target="_blank"><img src="./img/gmail.png" alt="Logo gmail" class="icono"></a>
+                  <a href="https://www.instagram.com/maximiliano836/" target="_blank"><img src="./img/instagram.png" alt="Logo instagram" class="icono"></a>
+                </div>
               </div>
             </div>
           </div>
@@ -85,7 +94,7 @@
       </div>
     </div>
   </main>
-
+  <script src="js/script.js"></script>
   <script src="css/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>
 
