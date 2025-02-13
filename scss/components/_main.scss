@@ -1,0 +1,83 @@
+main {
+    .tabs{
+        max-width: 7vw;
+        margin-top: 10vh;
+        margin-left: 0;
+    }
+
+    .card{
+        display: grid;
+        justify-content: center;
+        background-color: $card-color;
+        border: 2px solid $details-color;
+        min-width: 11vw;
+        max-width: 13vw;
+        transition: transform 0.3s ease;
+        box-shadow: 0 1px 15px $details-color;
+        border-radius: 5px;
+        padding: 2vh;
+    }
+
+    .card_iconos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card_lenguages{
+        @extend.card_iconos;
+    }
+
+    .card_proyects{
+        @extend.card;
+        max-width:35vw;
+        max-height:70vh;
+        overflow-y: auto;
+    }
+    
+    .card_proyects::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    .card_proyects::-webkit-scrollbar-track {
+        background: #e0e0e0;
+        border-radius: 4px;
+    }
+    
+    .card_proyects::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+    
+    .card_proyects::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    .show_card{
+        display: grid;
+        justify-content: center;
+    }
+    
+    .icono {
+        max-height: 9vh;
+        max-width: 7vw;
+        padding: 1vh;
+    }
+
+    .btn_info{
+        color: $text-color;
+        background-color:$border-color;
+        border: 1px solid $details-color;
+        border-radius: 4px;
+        transition: transform 0.3s ease;
+    }
+
+    .btn_info:active{
+        box-shadow: 0 1px 6px $details-color;
+        border-radius: 6px;
+    }
+
+    .card_iconos:hover,.card_proyects:hover,.card:hover,.btn_info:hover{
+        transform: scale(1.02);
+    }
+
+}

@@ -1,0 +1,14 @@
+@import "../scss/base/_generales";
+@import "../scss/base/_mq";
+@import "../scss/components/_main";
+@import "../scss/components/_body";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Smooch Sans", serif;
+    color: $text-color;
+    list-style-type: none;
+}
