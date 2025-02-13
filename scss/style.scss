@@ -11,4 +11,8 @@
     font-family:"Smooch Sans", serif;
     color: $text-color;
     list-style-type: none;
+
+    html, body {
+        overscroll-behavior: contain;
+      }
 }

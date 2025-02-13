@@ -154,5 +154,8 @@ body .trail {
   color: antiquewhite;
   list-style-type: none;
 }
+* html, * body {
+  overscroll-behavior: contain;
+}
 
 /*# sourceMappingURL=style.css.map */
