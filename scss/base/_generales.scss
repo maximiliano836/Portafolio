@@ -11,5 +11,5 @@ a {
 
 p{
     color: black;
-    font-size: 0.9vw;
+    font-size: clamp(1rem, 1vw, 1.5vw);
 }
