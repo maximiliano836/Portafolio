@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "id": "P001",
+        "name": "Laptop ASUS ROG Zephyrus G14",
+        "description": "Laptop gamer de alto rendimiento con procesador AMD Ryzen 9 y GPU NVIDIA RTX 4060."
+      },
+      {
+        "id": "P002",
+        "name": "iPhone 15 Pro Max",
+        "description": "Smartphone Apple con chip A17 Pro y cámara de 48 MP con zoom óptico 5x."
+      },
+      {
+    "id": "P003",
+        "name": "Auriculares Sony WH-1000XM5",
+        "description": "Auriculares inalámbricos con cancelación de ruido líder en la industria y sonido de alta calidad."
+      },
+      {
+        "id": "P004",
+        "name": "Monitor LG UltraGear 27\" QHD",
+        "description": "Monitor gaming de 27 pulgadas con resolución QHD, 144Hz y tecnología Nano IPS."
+      }
+    ]
+  }

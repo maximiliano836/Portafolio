@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "P001",
+      "title": "Zichi Nails Salon Website",
+      "description": "This project is a website for Zichi Nails Salon, created as a final submission for an online course. The website includes features such as web booking, service information, contact center and location, all designed to provide a seamless user experience to salon customers.",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT", "SCSS", "GITHUB"],
+      "image": "../img/zichi.png",
+      "repository": "https://github.com/maximiliano836/coderhouse",
+      "demo": "https://maximiliano836.github.io/coderhouse/"
+    },
+    {
+      "id": "P002",
+      "title": "https://ryomax17.github.io/Trabajo_Final/",
+      "description": "I developed an e-commerce platform for general merchandise as part of an online course project. The platform includes easy-to-use navigation, login and user cart, with the aim of improving customers' online shopping experience.",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT", "GITHUB"],
+      "image": "../img/ecommerce.png",
+      "repository": "https://github.com/Ryomax17/Trabajo_Final",
+      "demo": "https://ryomax17.github.io/Trabajo_Final/"
+    }
+  ]
+}
