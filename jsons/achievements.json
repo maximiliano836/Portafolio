@@ -1,0 +1,32 @@
+{
+  "achievements": [
+    {
+      "title": "Web Development",
+      "img": "../img/desarrollo_web.png"
+    },
+    {
+      "title": "JavaScript",
+      "img": "../img/javascript.png"
+    },
+    {
+      "title": "Web Development Essentials",
+      "img": "../img/desarrollo_coder.png"
+    },
+    {
+      "title": "Google AI Essentials",
+      "img": "../img/google_ia.png"
+    },
+    {
+      "title": "Scrum Master",
+      "img": "../img/scrum_master.png"
+    },
+    {
+      "title": "AI for Everyone",
+      "img": "../img/ia_all.png"
+    },
+    {
+      "title": "Software Testing",
+      "img": "../img/software_testing.png"
+    }
+  ]
+}

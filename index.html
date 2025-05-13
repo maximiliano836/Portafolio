@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio - Maximiliano Gonzalez</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
-
-</head>
-<body>  
-  <div class="trail" id="trail-0"></div> 
-  <header>
-    <h1>Maximiliano Gonzalez</h1>
-    <h4>Web Dev & Python Automation</h4>
-  </header>
-
-  <main>
-    <div class="container">
-      <div class="projects" id="projects"></div>
-      <div class="about-me" id="about-me"></div>
-      <div class="contact" id="contact"></div>
-    </div>
-
-  </main>
-  <script src="js/script.js"></script>
-  <script src="js/projects.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Maximiliano Gonzalez</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="trail" id="trail-0"></div>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-left">
+          <h1>Maximiliano Gonzalez</h1>
+          <h3>Web Dev & Python Automation</h3>
+        </div>
+        <div class="navbar-right">
+          <a href="#projects-title">Projects</a>
+          <a href="#achievements-title">Achievements</a>
+          <a href="#contact-title">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-me">
+          <p>
+            I'm Maximiliano, a passionate web developer with experience in
+            process optimization and project management.
+            <br /><br />
+            After being recognized as Employee of the Year in 2024, I decided to
+            fully dedicate myself to the IT world, combining creativity, data
+            analysis, and automation to build digital solutions that truly make
+            a difference.
+          </p>
+        </div>
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects" id="projects"></div>
+        <h2 id="achievements-title">Achievements</h2>
+        <div class="achievements" id="achievements"></div>
+        <h2 id="contact-title">Contact</h2>
+        <div class="contact" id="contact"></div>
+      </div>
+    </main>
+    <script src="js/cursor.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

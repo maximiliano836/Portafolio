@@ -1,7 +1,6 @@
 {
   "projects": [
     {
-      "id": "P001",
       "title": "Zichi Nails Salon Website",
       "description": "This project is a website for Zichi Nails Salon, created as a final submission for an online course. The website includes features such as web booking, service information, contact center and location, all designed to provide a seamless user experience to salon customers.",
       "technologies": ["HTML", "CSS", "JAVASCRIPT", "SCSS", "GITHUB"],
@@ -10,13 +9,36 @@
       "demo": "https://maximiliano836.github.io/coderhouse/"
     },
     {
-      "id": "P002",
-      "title": "https://ryomax17.github.io/Trabajo_Final/",
+      "title": "E-Commerce Platform",
       "description": "I developed an e-commerce platform for general merchandise as part of an online course project. The platform includes easy-to-use navigation, login and user cart, with the aim of improving customers' online shopping experience.",
       "technologies": ["HTML", "CSS", "JAVASCRIPT", "GITHUB"],
       "image": "../img/ecommerce.png",
       "repository": "https://github.com/Ryomax17/Trabajo_Final",
       "demo": "https://ryomax17.github.io/Trabajo_Final/"
+    },
+    {
+      "title": "Python Automation Solutions 🔒",
+      "description": "Developed automation solutions using Python and Selenium to streamline business processes, including web scraping, task automation, and report generation.",
+      "technologies": ["PYTHON"],
+      "image": "../img/python.png",
+      "repository": "https://github.com/tiendamiaExtra",
+      "demo": "https://github.com/tiendamiaExtra"
+    },
+    {
+      "title": "Mazz Services LLC Landing Page",
+      "description": "A landing page developed for Mazz Services LLC, designed to showcase the company's services and facilitate client communication. It includes a functional contact form and a direct WhatsApp link for quick inquiries, providing an intuitive and professional user experience.",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+      "image": "../img/mazz_service.png",
+      "repository": "https://github.com/AgusWeb1999/seba_web",
+      "demo": "https://mazzservicesllc.com/"
+    },
+    {
+      "title": "Stone Column Services Landing Page",
+      "description": "A landing page developed for Stone Column Services, designed to showcase the company's services and facilitate client communication. It includes a functional contact form and a direct WhatsApp link for quick inquiries, providing an intuitive and professional user experience.",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+      "image": "../img/stone_columns.png",
+      "repository": "https://github.com/AgusWeb1999/stones_columns",
+      "demo": "https://agusweb1999.github.io/stones_columns/"
     }
   ]
 }
