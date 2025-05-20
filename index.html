@@ -30,7 +30,7 @@
     <main>
       <div class="container">
         <h2>About Me</h2>
-        <div class="about-me">
+        <div class="about-me fade-in-on-scroll">
           <p>
             I'm Maximiliano, a passionate web developer with experience in
             process optimization and project management.
@@ -44,12 +44,48 @@
         <h2 id="projects-title">Projects</h2>
         <div class="projects" id="projects"></div>
         <h2 id="achievements-title">Achievements</h2>
-        <div class="achievements" id="achievements"></div>
+        <div class="achievements" id="achievement"></div>
         <h2 id="contact-title">Contact</h2>
-        <div class="contact" id="contact"></div>
+        <div class="contact" id="contact">
+          <form id="contact-form" class="fade-in-on-scroll">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+            <p id="form-status"></p>
+          </form>
+        </div>
       </div>
     </main>
     <script src="js/cursor.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/checkVisibility.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      emailjs.init("bTDQ8wwM6acE6pVRV"); // tu public key
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          emailjs.sendForm("service_zypzjj5", "template_ypny4vr", this).then(
+            function () {
+              document.getElementById("form-status").textContent =
+                "Message sent successfully!";
+              document.getElementById("contact-form").reset();
+            },
+            function (error) {
+              document.getElementById("form-status").textContent =
+                "Failed to send message. Please try again.";
+            }
+          );
+        });
+    </script>
   </body>
 </html>
