@@ -1,0 +1,51 @@
+@media (max-width: 575px) {
+}
+
+@media (max-width: 850px) {
+    main{
+        height: 100vh !important;
+    }
+
+    .button_section, .card_lg{
+        display: none;
+    }
+    .card_md{
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        gap: 4vw;
+    }
+    .card_proyects{
+        min-width: 80vw !important;
+    }
+    .card_lenguages_contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 4vw;
+    }
+
+
+    .icono{
+        max-width: 12vw !important;
+        max-height: 8vh !important;
+    }
+
+    .card{
+        max-width: 40vw !important;
+    }
+
+    .card_lenguages{
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+    
+}
+
+@media (min-width: 850px) {
+    .card_lenguages_contact, .card_md{
+        display: none;
+    }
+}
