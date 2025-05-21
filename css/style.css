@@ -99,8 +99,9 @@ p {
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2vh;
+  gap: 10vh;
   align-items: center;
+  padding: 2vh;
   justify-items: center;
 }
 
@@ -115,9 +116,9 @@ p {
   box-shadow: 0 1px 15px rgba(157, 240, 23, 0.904);
   border-radius: 50px;
   padding: 5vh;
-  gap: 9vh;
+  gap: 3vh;
   height: 80vh;
-  max-width: 30vw;
+  max-width: 40vw;
 }
 
 .card_proyect:hover {
@@ -182,7 +183,8 @@ p {
 
 .carousel-btn {
   background: rgba(0,0,0,0.7);
-  color: #fff;
+  color: #050505;
+  background-color: #b6f023;
   border: none;
   border-radius: 50%;
   width: 2.5rem;
